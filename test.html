@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>テスト</title>
+<style>
+  html, body { margin:0; padding:0; background:#FFF0F5; font-family:sans-serif; }
+  #box { min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; color:#B4436C; padding:24px; }
+</style>
+</head>
+<body>
+<div id="box">よみこみちゅう…</div>
+<script>
+  document.getElementById('box').innerHTML =
+    '<div>' +
+    '<p style="font-size:16px;margin-bottom:8px;">✅ ここまでは正常です</p>' +
+    '<p style="font-size:12px;color:#C77A98;">このページが見えていれば、GitHub Pagesとこの端末のJavaScriptは問題なく動いています。<br>時刻: ' + new Date().toLocaleTimeString() + '</p>' +
+    '</div>';
+</script>
+</body>
+</html>
